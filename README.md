@@ -64,18 +64,3 @@ pip install -r requirements.txt
 - 수집 결과를 DB(PostgreSQL 등)에 적재하도록 확장
 - 필드 매핑을 설정 파일 기반으로 분리하여 유지보수성 향상
 
-
-## 프로젝트 구조
-CRAWLING_PROJECT
-   -B_CRAWLING/
-    ├── main.py              CLI 실행 진입점
-    ├── config.py            URL, 대기시간, 출력 경로 설정
-    ├── crawler.py           크롤링 흐름 제어
-    ├── http_client.py       목록/상세 API 요청
-    ├── mapper.py            표준 레코드 변환
-    ├── checkpoints/
-    │   └── crawl_state.json 키워드별 재개 페이지 저장
-    └── result.csv           수집 결과
-   -README.md
-   -requirements.txt
-   -result.csv

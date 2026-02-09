@@ -19,20 +19,13 @@ CSV 저장 및 Excel(xlsx) 변환 지원
 5) Request Headers의 Cookie 전체 복사
 
 2. 단발 실행 (프로젝트 루트파일에서 실행(ex.CRAWLING_PROJECT))
-
 python -m B_CRAWLING.main --cookie "JSESSIONID=...; WMONID=...;(쿠키 예시)"
 
 "JSESSIONID=...; WMONID=...;(쿠키 예시)"부분에서 ""안에 복사한 쿠키를 넣으면 됩니다.
 
-최초 실행 시 1페이지부터 수집
-재실행 시 자동으로 이어서 수집
 
 3. 반복 실행(interval)
-
 python -m B_CRAWLING.main --cookie "..." --mode interval --interval-sec 3600 
-지정한 주기로 crawl_once 반복 실행
-매 실행마다 저장된 페이지부터 재개
-
 
 ## 출력 파일
 

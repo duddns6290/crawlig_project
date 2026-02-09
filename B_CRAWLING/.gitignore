@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# Runtime artifacts
+*.db
+*.sqlite
+*.sqlite3
+
+# Output
+*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
+
+checkpoints/
+*.tmp

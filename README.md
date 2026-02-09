@@ -13,7 +13,7 @@ CSV 저장 및 Excel(xlsx) 변환 지원
 1. 쿠키 준비
 
 1) https://nuri.g2b.go.kr 페이지로 이동
-2) F12 → Network 탭
+2) F12(개발자도구) → Network 탭
 3) 입찰공고 > 입찰공고 목록 이동
 4) selectBidPbancList.do 요청 선택
 5) Request Headers의 Cookie 전체 복사
